@@ -3,6 +3,7 @@
   "displayName": "easyGoto",
   "description": "make goto link write in your project,and easy to jump to the file",
   "version": "0.1.1",
+  "logo":"./easyGotoLogo.png",
   "engines": {
     "vscode": "^1.70.0"
   },
