@@ -2,8 +2,8 @@
   "name": "easygoto",
   "displayName": "easyGoto",
   "description": "make goto link write in your project,and easy to jump to the file",
-  "version": "0.2.0",
-  "logo":"./easyGotoLogo.png",
+  "version": "0.1.2",
+  "logo": "./easyGotoLogo.png",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -11,7 +11,7 @@
   "categories": [
     "Other"
   ],
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/royalknight56/easyGoto.git"
   },
@@ -27,13 +27,13 @@
       }
     ],
     "menus": {
-			"editor/context": [
-				{
-					"command": "goto.copygoto", 
-					"group": "group1"
-				}
-			]
-  	}
+      "editor/context": [
+        {
+          "command": "goto.copygoto",
+          "group": "group1"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
